@@ -88,13 +88,11 @@ gestuurd en het programma in wezen afgebroken wordt.
 ## Bulk testen
 
 Je kunt ook meerdere berekeningen in een tekstbestand zetten en dat gebruiken om je programma te testen. We gebruiken
-hiervoor *Input/Output redirection*.
+hiervoor *Input/Output redirection*. Let op dat je dus de invoer niet ziet, maar alleen de uitvoer. 
 
 ```shell
  > cppcalculator < input.txt
- 1+1
  1+1=2
- 1+2
  1+2=3
  >
 ```
@@ -189,3 +187,7 @@ gezet als er geen verschillen zijn, of op niet-nul wordt gezet bij detectie van 
 
 Het laatste deel (`if`-statement) rapporteert op basis van de vergelijking of er verschillen waren. ALs deze er zijn
 dan kun je die nalezen in het bestand `diff.txt`.
+
+# Test bestanden
+
+In dit project zitten al een aantal test bestanden die gemaakt zijn met MS Excel.
