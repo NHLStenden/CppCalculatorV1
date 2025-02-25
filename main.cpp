@@ -25,11 +25,17 @@ double calculate(double operand1, char op, double operand2) {
     }
 }
 
+/**
+ * Main program
+ * @return zero upon completion
+ */
 int main() {
+
     /** The user input .\n You should input decimal numbers using a dot (.) and not a comma (,) ! */
     std::string input;
 
-    /** A regular expression to parse the input. \n
+    /**
+     * A regular expression to parse the input. \n
      * Decimal numbers are only detected when using a dot (.) and not a comma (,)
      * */
     std::regex expression_regex("\\s*(-?\\d*\\.?\\d+)\\s*([+\\-*/])\\s*(-?\\d*\\.?\\d+)\\s*");
